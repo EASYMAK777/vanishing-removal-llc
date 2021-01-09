@@ -1,31 +1,37 @@
 import React from "react"
 import "../Navbar/Navbar.css"
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
         <div className = "Navbar">
             <div className = "navbar__title">
-                <h1>Vanishing Removal LLC</h1>
+                <p>Vanishing Removal LLC</p>
             </div>
-                <div className = "navbar__links">
 
+            <div className = "navbar__links">
+                <Link to="/" className="navbar__link">
+                        <div className="navbar__option">
+                            <span className="navbar__option1">Home</span>
+                            
+                        </div>
+                </Link>
 
+                <Link to="/Team" className="navbar__link">
+                        <div className="navbar__option">
+                            <span className="navbar__option2">Team</span>
+                            
+                        </div>
+                </Link>
 
-                <ul>
-                    <li>
-                        <p>Home</p>
-                    </li>
-                    <li>
-                        <p>Team</p>
-                    </li>
+                <Link to="/Contact" className="navbar__link">
+                        <div className="navbar__option">
+                            <span className="navbar__option3">Contact</span>
+                            
+                        </div>
+                </Link>
                     
-                    <li>
-                        <p>Contact</p>
-                    </li>
-                        
-                </ul>
-                </div>
-            
+            </div>
 
             
         </div>
@@ -33,3 +39,7 @@ function Navbar() {
 }
 
 export default Navbar
+
+
+
+
