@@ -2,16 +2,6 @@
     display: flex;
     width: 100%;
     background-color: darkgreen;
-}
-
-.navbar__title h1{
-    display: flex;
-    font-size: 25px;
-    flex-direction: row;
-    margin-right: 100px;
-    margin-top: 25px;
-    margin-left: 10px;
-    
     
 }
 
@@ -32,10 +22,9 @@
     
 }
 
-.navbar__links li{
+.navbar__links{
     display: flex;
     margin-left: 50px;
     width: 100%;
     
-
 }
