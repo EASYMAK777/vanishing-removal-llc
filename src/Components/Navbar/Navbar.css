@@ -17,21 +17,25 @@
 
 .navbar__links ul{
     display: flex;
+    width: 100%;
     list-style-type: none;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-top: 35spx;
    
 }
 
 .navbar__links {
     display: flex;
     margin-left: 200px;
+    width: 100%;
     
 }
 
 .navbar__links li{
     display: flex;
     margin-left: 50px;
+    width: 100%;
     
 
 }

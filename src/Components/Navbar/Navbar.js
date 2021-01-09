@@ -3,7 +3,7 @@ import "../Navbar/Navbar.css"
 
 function Navbar() {
     return (
-        <div className = "Navbar">
+        <nav className = "Navbar">
             <div className = "navbar__title">
                 <h1>Vanishing Removal LLC</h1>
             </div>
@@ -28,7 +28,7 @@ function Navbar() {
             
 
             
-        </div>
+        </nav>
     )
 }
 
